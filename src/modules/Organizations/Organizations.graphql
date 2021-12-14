@@ -1,0 +1,9 @@
+type Organization {
+  name: String!
+  id: ID!
+}
+
+extend type Query {
+  organization(id: ID!): Organization!
+  organizations(userId: ID!): [Organization!]!
+}

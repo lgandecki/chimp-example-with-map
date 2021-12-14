@@ -3108,10 +3108,10 @@ chimp-graphql-codegen-plugin@0.1.0:
     lodash "~4.17.20"
     tslib "~2.0.0"
 
-chimp@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/chimp/-/chimp-4.2.0.tgz#d9b8503f19c2022ed42edeb90b6d834024fb2627"
-  integrity sha512-sWKql3/a5om+Sy3rgmPy36VNul0cT2eh5Kr/T2M2oQQIGzaK7CcJ+bXKkLdIsBAdPLN9tmWvbY5vq3P2RcQHsA==
+chimp@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/chimp/-/chimp-4.2.1.tgz#bb3d7dcfa5285bc9ed40ef0a37f92512dc48d106"
+  integrity sha512-55TKLnOIr8j9Oy81dW1Xc9V+WrGf48IVAS5G3vYfr+O33zWGWWNjwAPIXoJ8s+y3yjYeac6BKwhx2UBTfufcnQ==
   dependencies:
     "@graphql-tools/graphql-file-loader" "^6.2.5"
     "@graphql-tools/load" "^6.2.5"

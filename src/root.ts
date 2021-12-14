@@ -18,9 +18,22 @@ const schoolApi = {
     ].find((s) => s.id === id),
 };
 
+const organizationApi = {
+  organizationById: (id: string) =>
+    [
+      { id: "1", name: "some organization name" },
+      { id: "2", name: "some other organization name" },
+    ].find((o) => o.id === id),
+  organizationsByUserId: (userId: string) =>
+    [{ userId: "1", organizationIds: ["1", "2"] }].find(
+      (u) => u.userId === userId
+    ).organizationIds,
+};
+
 export const root = {
   myTypeApi,
   schoolApi,
+  organizationApi,
 };
 
 export type RootInterface = typeof root;
