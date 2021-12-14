@@ -1,0 +1,13 @@
+extend type Query {
+  ReturnMyType: MyType
+}
+
+type School {
+  id: ID
+  name: String
+}
+
+type MyType {
+  id: ID! @map(path: "myTypeId")
+  schools: [School!]! @link @map(path: "schoolIds")
+}
